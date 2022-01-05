@@ -264,7 +264,7 @@ void niveau2::keyPressedDuration(EventKeyboard::KeyCode code) {
                 orangeSprite->setPosition(Point(166,213));
                 drawNode = DrawNode::create();
                 int i =0 ;
-                for (i=93; i <213;i++){
+                for (i=155; i <213;i++){
                 drawNode->drawPoint(Point(166,i),132.0f, Color4F ::RED);
                  }
                 this->addChild(drawNode);
